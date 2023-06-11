@@ -1,0 +1,144 @@
+body {
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 100px auto 200px;
+}
+
+.product {
+    background: #F8F8F8;
+    height: 581px;
+    width: 360px;
+}
+
+.product-box {
+    margin: auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin: 6px auto 48px;
+}
+
+.product__Name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 18px;
+}
+
+.product__description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-left: 18px;
+}
+
+.product__price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-left: 18px;
+}
+
+.actions {
+    background: #222224;
+    height: 341px;
+}
+
+
+.cartItems-box {
+    margin: 64px auto 96px;
+    max-width: 1140px;
+}
+
+.cart__product {
+    margin-top: 40px;
+    background: #FFFFFF;
+    height: 306px;
+    width: 652px;
+    display: flex;
+    box-shadow: 15px 15px 15px rgb(187, 187, 187);
+}
+
+.product__text {
+    width: 350px;
+}
+
+.cart__img {
+    width: 262px;
+}
+
+.close__button {
+
+    width: 18px;
+    height: 18px;
+    margin-top: 28px;
+    margin-right: 22px;
+}
+
+.cross {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cart__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+
+    margin: 22px 110px 42px 31px;
+}
+
+.cart__titles {
+    margin-top: 96px;
+}
+
+.cart__desc {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #575757;
+    margin: 0 0 6px 31px;
+}
